@@ -1,0 +1,30 @@
+{
+	"name": "react-testgen-cli",
+	"version": "0.1.0",
+	"description": "CLI to generate starter tests for React components",
+	"bin": {
+		"react-testgen": "dist/index.js"
+	},
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"dev": "ts-node src/index.ts",
+		"lint": "eslint src --ext .ts"
+	},
+	"keywords": [
+		"react",
+		"testing-library",
+		"vitest",
+		"jest",
+		"cli",
+		"test-generator"
+	],
+	"author": "Jonathan White",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.0"
+	}
+}
